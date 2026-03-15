@@ -1,0 +1,12 @@
+    checkSeguridad(casaJuan, false); // Todo tranquilo
+    checkSeguridad(casaJuan, true);  // Se detecta alguien
+    
+    return 0;
+[ ENTRADAS ]           [ PROCESAMIENTO ]           [ SALIDAS ]
+(Sensor LDR)  ------> [ Máquina de Estados ] ----> (Iluminación)
+(Sensor PIR)  ------> [ Lógica en C++      ] ----> (Ventilación)
+                         |
+                         | (Análisis de Datos)
+                         v
+                    [ MATLAB / DSP ]
+                    
