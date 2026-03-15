@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Compilar y Correr Domótica",
+            "label": "Construir y Ejecutar Domótica",
             "type": "shell",
             "command": "g++",
             "args": [
@@ -18,7 +18,8 @@
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
-            }
+            },
+            "problemMatcher": "$gcc"
         }
     ]
 }
